@@ -1,0 +1,51 @@
+body, html {
+    scroll-behavior: smooth;
+    background-color: #5353ff;
+    color: #000000;
+}
+h1 {
+    text-align: center;
+    font-size: 30px;
+}
+h2 {
+    font-size: 25px;
+}
+p {
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+li {
+    font-size: 18px;
+    list-style: none;
+    margin-bottom: 5px;
+}
+a {
+    text-decoration: none;
+
+}
+
+
+.saq {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul.navig{
+    margin-left: 1px;
+    padding-left: 1px;
+    list-style: none;
+}
+ul.navig a {
+    display: block;
+    width: 12em;
+    padding:14px;
+    background-color: #014e6b;
+    border-top: 2px solid #f6bc76;
+    border-right: 2px solid #f6bc76;
+    border-left: 2px solid #f6bc76;
+    border-bottom: 2px solid #f6bc76;
+    color: #f6bc76;
+}
+
