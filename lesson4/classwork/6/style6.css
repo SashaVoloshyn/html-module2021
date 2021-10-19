@@ -1,0 +1,63 @@
+.wrap {
+    background-color: gold;
+    height: 1100px;
+
+}
+.wrap1 div {
+
+    box-sizing: border-box;
+    margin: 3px;
+}
+
+.top {
+
+    background-color: blue;
+    height: 500px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.top1 {
+    background-color: cornflowerblue;
+    height: auto;
+    flex-grow: 1;
+}
+.top2 {
+    background-color: darkslategray;
+    height: auto;
+    flex-grow: 1;
+}
+.mid {
+
+    background-color: darkviolet;
+    height: 350px;
+}
+
+.bot {
+
+    background-color: darkred;
+    height: 250px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+
+}
+.bx1 {
+    background-color: darkviolet;
+    height: auto;
+}
+.bx2 {
+    background-color: cornflowerblue;
+    height: auto;
+}
+.bx3 {
+
+    background-color: bisque;
+    height: auto;
+}
+
+.bx {
+
+    width: 400px;
+}

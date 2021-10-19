@@ -1,0 +1,74 @@
+.wrap {
+
+    background-color: darkviolet;
+    height: 900px;
+
+}
+.wrap div{
+    margin: 1px;
+}
+
+.head {
+
+    background-color: darkslategray;
+    height: 300px;
+}
+.bod{
+    background-color: aqua;
+    height: 600px;
+    display: flex;
+}
+
+.lcont{
+    background-color: darkviolet;
+    flex-grow: 3;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.rcont { background-color: crimson;
+    flex-grow: 1;
+    min-width: 250px;
+
+}
+
+.bx1 {
+    background-color: crimson;
+}
+.bx2 {
+    background-color: gold;
+}
+.bx3 {
+    background-color: darkslategray;
+}
+.bx4 {
+    background-color: chocolate;
+}
+.bx5 {
+    background-color: blue;
+
+}
+.bx6 {
+    background-color: black;
+}
+
+.box {
+width: 300px;
+
+}
+
+.hdcnt1 {
+    height: 290px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hdcnt2 {
+    height: 295px;
+    background-color: darkkhaki;
+    display: flex;
+    justify-content: space-between;
+}

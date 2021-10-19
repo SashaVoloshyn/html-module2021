@@ -1,0 +1,64 @@
+.wrap {
+    background-color: darkgreen;
+    height: 900px;
+
+}
+.wrap div {
+    margin: 5px;
+
+}
+.head {
+    height: 200px;
+    background-color: darkviolet;
+}
+
+.cnt {
+    display: flex;
+    background-color: aliceblue;
+    height: 700px;
+
+
+}
+
+.lcont {
+    background-color: yellow;
+    flex-grow: 3;
+
+}
+.rcont {
+
+    background-color: crimson;
+    flex-grow: 2;
+
+}
+.lhd {
+
+    background-color: darkslategray;
+    height: 300px;
+}
+.bx1{
+    background-color: darkviolet;
+    height: auto;
+    width: 300px;
+}
+.bx2 {
+    background-color: blue;
+    height: auto;
+    width: 300px;
+}
+
+.bx3 {
+
+    background-color: chocolate;
+    height: auto;
+    width: 300px;
+}
+
+.box {
+    height: 400px;
+    display: flex;
+    align-items: stretch;
+    background-color: aqua;
+    justify-content: space-between;
+
+}
