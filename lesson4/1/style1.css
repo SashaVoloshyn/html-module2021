@@ -1,0 +1,39 @@
+.box{
+    margin: 5px;
+
+
+
+}
+
+.wrap{
+    height: 730px;
+    border: 8px solid #000;
+
+
+
+}
+
+
+.blok1 {
+    background-color: crimson;
+    width: auto;
+    height: 350px;
+}
+
+.tst {
+    display: flex;
+    height: 370px;
+
+}
+
+.blok2 {
+
+    background-color: yellow;
+    flex-grow: 3;
+
+}
+.blok3 {
+
+    background-color: darkgreen;
+    flex-grow: 1;
+}

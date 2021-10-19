@@ -1,0 +1,39 @@
+.wrap {
+    background-color: yellow;
+    height: auto;
+    width: auto;
+}
+.cont div {
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    background: aqua;
+    height: 300px;
+
+}
+.head {
+    background-color: darkred;
+    height: 300px;
+}
+
+.cont {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.contact{
+    height: 800px;
+    background-color: coral;
+
+}
+.bx1 {
+    flex-basis: 280px;
+}
+.bx2 {
+    flex-basis: 300px;
+
+}
+.bx3 {
+    flex-basis: 370px;
+}

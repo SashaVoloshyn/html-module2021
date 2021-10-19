@@ -1,0 +1,44 @@
+.wrap {
+
+    height: 800px;
+    background-color: chartreuse;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.header{
+    background-color: darkviolet;
+flex-grow: 2;
+
+}
+.nav  {
+    background-color: crimson;
+  flex-grow: 1;
+}
+.main {
+background-color: blue;
+    flex-grow: 7;
+
+}
+.aside {
+background-color: azure;
+    flex-grow: 3;
+
+
+}
+.footer {
+background-color: coral;
+flex-grow: 2;
+
+}
+
+.test {
+    display: flex;
+    flex-grow: 16;
+
+
+}
