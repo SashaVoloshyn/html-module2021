@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrap,.header,.lcont,.rcont {
+    border-radius: 10px;
+
+
+}
+.header,.lcont,.rcont {
+    background: linear-gradient(45deg, #002eff, #75ff41);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    font-size: 250%;
+}
+
+.wrap {
+    width: 900px;
+    border: 5px solid #494949;
+    margin: 0 auto;
+
+}
+
+.header {
+    height: 200px;
+    box-sizing: border-box;
+}
+.main {
+
+    display: flex;
+}
+.lcont {
+
+    height: 350px;
+    width: 70%;
+
+}
+
+.rcont {
+flex-grow: 1;
+
+}

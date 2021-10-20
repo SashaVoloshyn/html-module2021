@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrap {
+    border: 3px solid saddlebrown;
+}
+
+.top,.bx1,.bx2,.bx3,.bot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    color: #cccccc;
+    font-size: 250%;
+}
+.md {
+    background-color: #212160;
+    flex-grow: 1;
+}
+.top {
+
+    height: 200px;
+    background-color: #4f4fff;
+
+}
+.mid {
+    display: flex;
+    height: 400px;
+}
+
+.bot {
+
+    background-color: #1f4286;
+    height: 600px;
+}
+
+
