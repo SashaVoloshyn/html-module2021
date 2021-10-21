@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.top__wrap {
+    border: 5px solid #00ffeb;
+    height: 600px;
+    border-radius: 40px;
+
+}
+.rad {
+    border-radius: 50px;
+
+}
+.col { background-color: #0e172f;
+}
+.col2{ background-color: #7c7b7b;
+
+}
+
+.top {
+    padding-top: 7px;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-bottom: 30px;
+
+}
+.t__top{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+}
+
+
+.tblock1 {
+    width: 120px;
+    height: 20px;
+    margin: 5px;
+
+}
+.tblock2 {
+
+    width: 60px;
+    height: 20px;
+    margin: 5px;
+}
+
+.t__mid {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50%;
+}
+
+.box {
+
+    height: 300px;
+    width:  300px;
+    margin: 20px;
+    border-radius: 30px;
+}
+
+.t__bot {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 25%;
+}
+
+.wrap__bot {
+    width: 300px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.cont {
+    width: 120px;
+    height: 10px;
+    margin: 5px;
+
+}
+.cont2 {
+    width: 60px;
+    height: 10px;
+    margin: 5px;
+}
+
+.bot {
+    padding-top: 20px;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-bottom: 20px
+}
+
+.bot__wrap {
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+
+}
+.el {
+
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    box-sizing: border-box;
+
+}
+.el__1{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 60%;
+}
+.el1 {
+
+    height: 250px;
+    width:  250px;
+    border-radius: 50%;
+}
+.el2{
+
+    display: flex;
+    height: 12%;
+    justify-content: center;
+    align-items: end;
+}
+.el3 {
+    display: flex;
+    height: 15%;
+    justify-content: center;
+    align-items: start;
+
+}
+.el2i {
+    width: 50%;
+    height: 15px;
+    margin: 10px;
+}
+.el3i {
+    width: 33%;
+    height: 10px;
+    margin: 5px;
+}
+.bord {
+    border: 3px solid aqua;
+}
