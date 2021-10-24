@@ -1,0 +1,62 @@
+@media screen and (max-width: 400px) {
+    .wrap {
+        max-width: 350px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    .soc__icon {
+        justify-content: space-between;
+    }
+    .logo {
+        max-width: 100px;
+        max-height: 50px;
+
+    }
+    .nav {
+        column-gap: 7px;
+
+    }
+    .middle {
+        padding: 10px 15px;
+    }
+    .booox_txt {
+        display: flex;
+        flex-direction: column;
+    }
+    .box {
+        flex-direction: column;
+        align-items: center;
+    }
+    .gallery__cont {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cont__bx {
+        width: 90%;
+        min-height: 250px;
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: column;
+        padding: 30px 0;
+    }
+    .mine__cont__box1 {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 50px;
+    }
+    .bot__mine {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .ccont {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
