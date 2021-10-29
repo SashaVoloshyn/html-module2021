@@ -1,0 +1,376 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Tinos', serif;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    height: 100vh;
+    background: url("../images/bg1.png") no-repeat center/cover;
+}
+.header__menu1 {
+    padding-top: 50px;
+}
+.navbar-nav img {
+    width: 20px;
+}
+
+.header__phone {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    width: 180px;
+    border-left: 3px solid #fff;
+    padding-left: 15px;
+}
+.header__phone p {
+    font-weight: normal;
+    font-size: 14px;
+}
+.header__contact {
+    display: flex;
+    align-items: center;
+    column-gap: 45px;
+}
+
+.btn {
+    background: #FF7400;
+    width: 157px;
+    height: 47px;
+    font-size: 14px;
+    line-height: 19px;
+    color: white;
+}
+.header__title {
+    font-weight: normal;
+    color: #D67E35;
+    margin-top: 150px;
+}
+.header__title h2 {
+    font-size: 50px;
+    line-height: 57px;
+    margin-left: 24px;
+
+}
+
+.header__title h1 {
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 92px;
+
+}
+.header__title p {
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+    margin-top: 12px;
+}
+.header__title span {
+    display: block;
+    width: 61px;
+    height: 2px;
+    background-color: white;
+    margin: 0 8px;
+}
+.header__title button {
+    margin-left: 140px;
+    margin-top: 21px;
+}
+
+.card img {
+    width: 100px;
+}
+.card {
+    background: white ;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+    width: 349px;
+    height: 328px;
+    position: absolute;
+    top: -120px;
+}
+.card p {
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    color: #656363;
+    padding-top: 20px;
+}
+
+.card span {
+    color: #BC9060;
+}
+.card h3 {
+    font-size: 26px;
+    line-height: 30px;
+    color: #2C2C2C;
+}
+.spn {
+    color: #D67E34;
+}
+.cards__real {
+    position: relative;
+    min-height: 210px;
+}
+.mine__story {
+    margin-top: 150px;
+}
+.mine__story__story h2 {
+    font-size: 54px;
+    line-height: 62px;
+    color: #000000;
+}
+.mine__story__story  p {
+    font-size: 16px;
+    line-height: 22px;
+    color: #656363;
+    max-width: 444px;
+    padding-top: 21px;
+}
+.mine__story__story__box {
+    column-gap: 50px;
+    padding-top: 50px;
+    row-gap: 10px;
+    padding-left: 60px;
+}
+.mine__story__story__bx a {
+    text-decoration: none;
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+    color: #BC9060;
+}
+.mine__story__story__bx p {
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: black;
+}
+.mine__top__cont .row {
+    height: 40vh;
+}
+.mine__top {
+    background: url("../images/bg2.png") no-repeat center/cover;
+    height: 40vh;
+    margin-top: 122px;
+}
+.mine__top__cont__cont h2 {
+    font-size: 52px;
+    line-height: 60px;
+    color: #D67E34;
+}
+
+.mine__top__cont__cont p {
+    font-size: 24px;
+    line-height: 33px;
+    color: white;
+    padding-top: 20px;
+}
+
+.mine__mid__cont h2 {
+    font-size: 54px;
+    line-height: 62px;
+    color: #000000;
+    padding: 132px 0;
+    text-align: center;
+}
+
+.mine__card__cont {
+    column-gap: 15px;
+}
+.mine__mid__cont__card {
+    row-gap: 25px;
+}
+.mine__mid__cont__card p {
+    font-size: 26px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.mine__menu {
+    margin-top: 150px;
+    height: 120vh;
+    background: url("../images/bar-1869656_1920 2.png") no-repeat center/cover;
+}
+.mine__menu h2 {
+    padding: 98px 0;
+    font-size: 54px;
+    line-height: 62px;
+    color: #ffffff;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+.cardd {
+    width: 350px;
+    min-height: 450px;
+    background-color: white;
+}
+.recomended {
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    background-color: #D67E34;
+    width: 124px;
+    height: 36px;
+}
+.cardd__dd{
+    padding-top: 44px;
+}
+.cardd__d {
+    padding-top: 80px;
+}
+
+.cardd__header {
+    background: url("../images/BURGER.png") no-repeat center/cover;
+    border-radius: 50%;
+    width: 231px;
+    height: 231px;
+}
+.cardd__bx {
+    border-radius: 50%;
+    background: #D67E34;
+    width: 100px;
+    height: 100px;
+    border: 7px solid #FFFFFF;
+    box-sizing: border-box;
+}
+.cardd h3 {
+    font-size: 26px;
+    line-height: 30px;
+    color: black;
+    padding: 17px 0;
+    text-align: center;
+}
+.cardd p {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: black;
+}
+
+.mine__menu__cards__button {
+    margin: 40px 0;
+    background: #D67E34;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+    font-size: 16px;
+    line-height: 22px;
+    color: white;
+    width: 220px;
+    height: 50px;
+}
+
+.mine__dish__review {
+    min-height: 550px;
+    background: #E6E5E5;
+}
+.mine__dish__review__content {
+    padding-top: 104px;
+
+}
+.mine__dish__review__content p {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: black;
+    width: 900px;
+}
+.mine__dish__review__content img {
+    border-radius: 50%;
+    padding: 17px 0;
+}
+.mine__dish__review__content h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    padding-bottom: 10px;
+}
+.review__box {
+    column-gap: 2px;
+    padding-top: 30px;
+}
+.review__bx {
+    width: 7px;
+    height: 7px;
+    border: 1px solid #FF7400;
+    box-sizing: border-box;
+    border-radius: 50%;
+
+}
+
+.gallery__cont h2 {
+    padding-top: 101px;
+    padding-bottom: 62px;
+    font-size: 54px;
+    line-height: 62px;
+    color: black;
+    text-align: center;
+}
+.gall__img {
+    row-gap: 30px;
+}
+
+.footer__top__cont h2 {
+    font-size: 54px;
+    line-height: 62px;
+    color: black;
+    padding: 105px 0;
+    text-align: center;
+}
+
+
+.footer {
+    margin-top: 80px;
+    background: url("../images/FOOTER.png") no-repeat ;
+    height: 90vh;
+}
