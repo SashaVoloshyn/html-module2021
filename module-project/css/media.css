@@ -1,5 +1,39 @@
-@media screen and (max-width: 1126px) {
+/*@media screen and (max-width: 1126px) {*/
 
+
+/*    .nav-right-desk {*/
+/*        display: none;*/
+/*    }*/
+
+/*    .nav-right-mob {*/
+/*        display: block;*/
+
+/*    }*/
+/*}*/
+
+/*@media screen and  (max-width: 572px) {*/
+/*    .nav-left-geo__logo {*/
+/*        display: none;*/
+/*    }*/
+
+/*    .nav-left-dropdown {*/
+/*        display: none;*/
+/*    }*/
+
+/*    .header__nav {*/
+/*        justify-content: start;*/
+/*    }*/
+
+/*    .wraper {*/
+/*        padding: 0 15px;*/
+/*    }*/
+/*}*/
+
+
+
+
+
+@media screen and (max-width: 770px) {
 
     .nav-right-desk {
         display: none;
@@ -8,16 +42,47 @@
         display: block;
 
     }
-
-}
-@media screen and (max-width: 770px) {
     .header__menu {
         font-size: 13px;
         line-height: 15px;
+
     }
 
+    .header__work-info {
+        flex-direction: column;
+        row-gap: 15px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .header__schedule-time img {
+        width: 20px;
+    }
+    .header__geo-vector img {
+        width: 20px;
+    }
+    .header__namber {
+        flex-direction: column-reverse;
+        row-gap: 30px;
+    }
+    .header__phone-phone {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .header__whatsapp {
+        font-size: 12px;
+        line-height: 14px;
+        padding: 2px 5px;
+        min-width: 100px;
+    }
+    .header__schedule-schedule {
+        min-width: 186px;
+    }
 }
-@media screen and  (max-width: 572px){
+
+
+
+@media screen and (max-width: 420px) {
+
     .nav-left-geo__logo {
         display: none;
     }
@@ -27,14 +92,54 @@
     .header__nav {
         justify-content: start;
     }
-    .wraper {
+    .wrapper {
         padding: 0 15px;
     }
 
 
 }
 
-@media screen and (max-width: 420px) {
+
+@media screen and (max-width: 320px) {
+    .nav-left-geo {
+     min-width: 100px;
+    }
+    .header {
+        padding-top: 10px;
+    }
+    .header__work-info {
+        display: none;
+    }
+    .header__logo-logo img {
+        max-width: 37px;
+    }
+    .header__logo-name h2 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .header__logo-name p {
+        font-size: 7px;
+        line-height: 8px;
+    }
+    .header__phone-phone {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .header__phone-form a {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .header__whatsapp-whatsapp span {
+        display: none;
+    }
+    .header__whatsapp a {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .header__namber {
+        row-gap: 10px;
+    }
+/*    -------------headerLOGO-----------------------------------------*/
 
 
 

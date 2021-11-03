@@ -28,6 +28,8 @@ body {
     /*font-family: 'Roboto', sans-serif;*/
     font-family: 'Roboto', 'Rubik';
     color: #0A1A2C;
+    font-weight: 500;
+    font-size: 14px;
 }
 ol, ul {
     list-style: none;
@@ -59,7 +61,6 @@ table {
     height: 35px;
     background-color: #0F2438;
     color: white;
-    font-weight: 500;
     font-size: 14px;
     line-height: 16px;
 }
@@ -74,8 +75,10 @@ table {
     display: flex;
 }
 .nav-left-geo {
-display: flex;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    min-width: 148px;
 }
 
 
@@ -90,4 +93,104 @@ display: flex;
 .nav-right-desk {
     column-gap: 30px;
     display: flex;
+    align-items: center;
 }
+/*------------------------------NAV-------------------------------------------------------------------------------*/
+
+.header {
+    padding-top: 33px;
+}
+
+.header__info,.header__logo, .header__work-info, .header__schedule, .header__geo,
+.header__namber,.header__whatsapp,.header__phone,.header__schedule-schedule {
+    display: flex;
+
+}
+.header__info {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    align-items: center;
+    column-gap: 5px;
+
+}
+.header__logo img {
+    width: 66px;
+}
+.header__logo-name h2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+
+}
+.header__logo-name p {
+    font-size: 12px;
+    line-height: 14px;
+
+}
+.header__schedule {
+    column-gap: 10px;
+    align-items: center;
+    line-height: 20px;
+}
+
+.header__schedule-schedule {
+    flex-direction: column;
+    align-items: end;
+
+}
+
+.header__geo {
+    align-items: center;
+    column-gap: 12px;
+
+}
+
+.header__whatsapp {
+    background: #E1EFD0;
+    border-radius: 2px;
+    column-gap: 7px;
+    padding: 8px 16px;
+    box-sizing: border-box;
+    align-items: center;
+
+
+
+}
+.header__whatsapp a {
+    font-size: 12px;
+    line-height: 14px;
+    font-family: Rubik;
+    font-weight: normal;
+    color: black;
+}
+.header__namber {
+    column-gap: 30px;
+}
+.header__work-info {
+    column-gap: 50px;
+}
+
+.header__phone {
+    flex-direction: column;
+    align-items: end;
+}
+.header__phone a {
+    font-size: 12px;
+    line-height: 14px
+    text-decoration-line: underline;
+    color: #0F2438;
+    opacity: 0.7;
+}
+.header__phone-phone {
+    font-size: 20px;
+    line-height: 23px;
+}
+.btn {
+    color: white;
+    background: #005BB9;
+    border-radius: 6px;
+}
+
