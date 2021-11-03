@@ -1,0 +1,41 @@
+@media screen and (max-width: 1126px) {
+
+
+    .nav-right-desk {
+        display: none;
+    }
+    .nav-right-mob {
+        display: block;
+
+    }
+
+}
+@media screen and (max-width: 770px) {
+    .header__menu {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+}
+@media screen and  (max-width: 572px){
+    .nav-left-geo__logo {
+        display: none;
+    }
+    .nav-left-dropdown {
+        display: none;
+    }
+    .header__nav {
+        justify-content: start;
+    }
+    .wraper {
+        padding: 0 15px;
+    }
+
+
+}
+
+@media screen and (max-width: 420px) {
+
+
+
+}
