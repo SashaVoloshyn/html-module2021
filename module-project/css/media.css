@@ -102,46 +102,91 @@
 
 @media screen and (max-width: 320px) {
     .nav-left-geo {
-     min-width: 100px;
+        min-width: 100px;
 
     }
+
     .header {
-        padding-top: 10px;
+        padding: 10px 0;
     }
+
     .header__work-info {
         display: none;
     }
+
     .header__logo-logo img {
         max-width: 37px;
     }
+
     .header__logo-name h2 {
         font-size: 14px;
         line-height: 16px;
     }
+
     .header__logo-name p {
         font-size: 7px;
         line-height: 8px;
     }
+
     .header__phone-phone {
         font-size: 14px;
         line-height: 16px;
     }
+
     .header__phone-form a {
         font-size: 10px;
         line-height: 12px;
     }
+
     .header__whatsapp-whatsapp span {
         display: none;
     }
+
     .header__whatsapp a {
         font-size: 10px;
         line-height: 12px;
     }
+
     .header__namber {
         row-gap: 10px;
     }
-/*    -------------headerLOGO-----------------------------------------*/
 
+    /*    -------------headerLOGO-----------------------------------------*/
+    .mob__none {
+        display: none;
+    }
 
+    .ssp {
+        justify-content: center;
+        align-items: center;
+        row-gap: 4px;
 
+    }
+
+    .search__btn {
+        padding: 10px 7px;
+    }
+    .header__mine__items {
+        display: none;
+    }
+    .header__mine__search {
+        width: 100%;
+        column-gap: 20px;
+    }
+    .input__line {
+        min-width: 200px;
+        height: 48px;
+    }
+    .input__btn p {
+        display: none;
+    }
+    .input__btn span {
+        display: block;
+    }
+    .input__btn img {
+        width: 12px;
+    }
+    .input__btn {
+        padding: 11px;
+    }
 }
