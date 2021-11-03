@@ -103,6 +103,7 @@
 @media screen and (max-width: 320px) {
     .nav-left-geo {
      min-width: 100px;
+
     }
     .header {
         padding-top: 10px;
