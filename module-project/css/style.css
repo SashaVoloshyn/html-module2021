@@ -48,7 +48,7 @@ table {
 }
 
 .wrapper {
-    max-width: 1320px;
+    max-width: 1360px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -266,8 +266,8 @@ table {
     align-items: center;
 }
 .heart {
-    border-left: 2px solid black;
-    border-right: 2px solid black;
+    border-left: 1px solid #E1E5F8;
+    border-right: 1px solid #E1E5F8;
     padding: 0 25px;
 }
 .cart {
@@ -280,4 +280,203 @@ table {
     line-height: 16px;
     text-align: center;
 
+}
+/*---------------------------header---------------------------*/
+
+.big-slider-block {
+    margin: 30px 0;
+
+}
+
+.big-slider-slider {
+    height: 400px;
+    background: url("../image/big-slider/bg.jpg") center/cover;
+    width: 74%;
+    position: relative;
+    border-radius: 30px;
+
+
+}
+
+.curs {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: white;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cursor1 {
+    bottom: 50%;
+    left: 2%;
+
+}
+
+.cursor2 {
+    bottom: 50%;
+    right: 2%;
+
+}
+.big-slider-slider__mine {
+    display: flex;
+    height: 85%;
+    width: 100%;
+}
+
+.big-slider-slider__mine__contl {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    row-gap: 20px;
+    flex-direction: column;
+
+}
+
+.big-slider-slider__mine-title h2 {
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.big-slider-slider__mine-title a {
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration-line: underline;
+    color: #717171;
+
+}
+.big-slider-slider__mine-price {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+.big-slider-slider__mine-price h2 {
+    font-size: 264%;
+    line-height: 307%;
+    color: #005BB9;
+}
+.big-slider-slider__mine-price p {
+    font-size: 157%;
+    line-height: 185%;
+    text-decoration-line: line-through;
+    color: #C2C5DA;
+}
+.big-slider-button {
+    padding: 15px 30px;
+    display: flex;
+    column-gap: 8px;
+}
+.big-slider-slider__mine__cont-img {
+    align-items: center;
+    display: flex;
+}
+.big-slider-slider__footer {
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 22px;
+}
+.bh {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: white;
+
+}
+.big-slider-slider__footer__bh1 {
+    background: #0D1C2B;
+}
+.big-slider-slider__footer__bh2 {
+    border-left: 2px inset #0D1C2B;
+    border-bottom: 2px inset #0D1C2B;
+}
+.big-slider__cont-product {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.big-slider__cont-product-product {
+    background: #F4F5FA;
+    border-radius: 10px;
+    height: 49%;
+    width: 336px;
+}
+.big-slider__cont {
+    display: flex;
+    column-gap: 10px;
+}
+
+.big-slider__cont-product-product h3 {
+    font-size: 12px;
+    line-height: 14px;
+    padding: 12px 15px;
+}
+.product-card-cont {
+    padding: 0 15px;
+    display: flex;
+    column-gap: 15px;
+}
+.product-card-cont > img {
+    height: 80px;
+    width: 80px;
+}
+.product-card-cont-info {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 152px;
+
+}
+.product-card-cont-info-inf h2 {
+    font-size: 16px;
+    line-height: 23px;
+}
+.product-card-cont-info-inf a {
+    font-size: 12px;
+    line-height: 14px;
+    color: #525252;
+    text-decoration: none;
+}
+.product-card-cont-info-price {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    height: 50%;
+}
+.product-card-cont-info-price-price {
+    display: flex;
+    column-gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.product-card-cont-info-price-price h2 {
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFB800;
+}
+.product-card-cont-info-price-price p {
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: line-through;
+    color: #C2C5DA;
+}
+
+.product-card-cont-info-price-button button {
+    padding: 16px;
+    line-height: 0;
+
+}
+.product-card-cont-info-price-button img {
+    height: 17px;
+    width: 17px;
+}
+
+/*------------big slider------------------------*/
+
+.small-slider-block {
+    margin: 70px 0;
 }
