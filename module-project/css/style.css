@@ -480,3 +480,59 @@ table {
 .small-slider-block {
     margin: 70px 0;
 }
+.small-slider {
+    overflow: hidden;
+    height: 175px;
+    display: flex;
+    column-gap: 30px;
+    position: relative;
+}
+
+    .small-slider__box {
+    height: 100%;
+    width: 431px;
+    display: flex;
+    border: 1px solid #E1E5F8;
+    box-sizing: border-box;
+    border-radius: 6px;
+    justify-content: space-between;
+}
+.small-slider__box__title {
+    row-gap: 11px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.small-slider__box__title h2 {
+    font-size: 24px;
+    line-height: 28px;
+}
+.small-slider__box__title p {
+    font-size: 14px;
+    line-height: 24px;
+}
+.small-slider__btn {
+    background: #005BB9;
+    border-radius: 4px;
+    height: 26px;
+    width: 86px;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    justify-content: center;
+}
+
+.cursor__s1 {
+    bottom:  43%;
+    left: 0%;
+}
+.cursor__s2 {
+    bottom: 43%;
+    right: 0%;
+}
+
+/*------------------small slider------------------*/
+
