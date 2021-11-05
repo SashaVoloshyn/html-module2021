@@ -275,10 +275,13 @@ table {
     font-size: 12px;
     line-height: 16px;
 }
-.header__mine__items__itm p {
+.header__mine__items__itm a {
     font-size: 14px;
     line-height: 16px;
     text-align: center;
+    text-decoration: none;
+    color: #0F2438;
+
 
 }
 /*---------------------------header---------------------------*/
@@ -657,4 +660,198 @@ table {
         display: flex;
         align-items: center;
         padding: 15px 40px;
+    }
+
+    .mine__news__decor__fon {
+        height: 10px;
+        background-color: #F5F5F5;
+    }
+    .mine__news__decor__absol__bh {
+        width: 25%;
+        display: flex;
+    }
+    .mine__news__decor {
+        position: relative;
+    }
+    .mine__news__decor__absol {
+        display: flex;
+        position: absolute;
+        width: 100%;
+        top: -0px;
+        right: 205px;
+    }
+    .mine__news__title {
+        margin-top: 40px;
+        margin-bottom: 15px;
+    }
+    .mine__news__title > h2 {
+        font-size: 24px;
+        line-height: 28px;
+        color: #000000;
+    }
+    .mine__news__news {
+        display: flex;
+        width: 100%;
+        column-gap: 25px;
+    }
+    .mine__news__news__block {
+        width: 24%;
+        padding-top: 15px;
+        min-height: 250px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+
+    }
+    .news__date {
+        width: 106px;
+        height: 22px;
+        background: #0C1A2A;
+        border-radius: 4px;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        text-align: center;
+
+    }
+    .mine__news__news__block > a {
+        font-size: 16px;
+        line-height: 19px;
+        text-decoration-line: underline;
+        color: #005BB9;
+    }
+    .mine__news__news__block > p{
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+/*    -----------------news------------------*/
+
+    .footer {
+        background: #0C1A2A;
+        color: #858CAB;
+        margin-top: 100px;
+
+    }
+    .footer__cont__content {
+        padding-top: 36px;
+        display: flex;
+        column-gap: 90px;
+    }
+    .footer a {
+        text-decoration: none;
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFFFFF;
+    }
+    .footer h2 {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .footer p {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .footer__cont__inform {
+        display: flex;
+        column-gap: 90px;
+    }
+    .columinf {
+        display: flex;
+        flex-direction: column;
+        row-gap: 14px;
+    }
+    .moneycart {
+        display: flex;
+        flex-direction: column;
+        column-gap: 8px;
+        padding-top: 20px;
+    }
+    .moneycart img {
+        width: 114px;
+        height: 45px;
+    }
+    .footer__contact {
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer__contact__block a {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .footer__contact__block {
+        flex-grow: 1;
+        row-gap: 23px;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__form-form {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+    }
+    .footer__form-input {
+        display: flex;
+        flex-direction: column;
+        padding-top: 23px;
+    }
+
+    .input-group button {
+        width: 100px;
+    }
+    .form-control {
+        background: #0C1A2A;
+    }
+    .input-group {
+        padding-top: 18px;
+    }
+    .footer__icons {
+        display: flex;
+        column-gap: 55px;
+        justify-content: end;
+
+    }
+    .footer__icons img {
+        width: 24px;
+        height: 24px;
+    }
+    .footer__end {
+        padding-top: 48px;
+        min-height: 100px;
+        display: flex;
+        align-items: center;
+    }
+    .footer__end h2 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .mob__menu__menu {
+        display: none;
+        width: 320px;
+    }
+    .mob__menu__menu a {
+        text-decoration: none;
+        font-size: 10px;
+        line-height: 12px;
+        text-align: center;
+        color: #0F2438;
+    }
+    .mob__menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        background-color: white;
+    }
+    .mob__menu__box {
+        width: 24%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 5px;
     }
