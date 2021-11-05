@@ -535,4 +535,126 @@ table {
 }
 
 /*------------------small slider------------------*/
+    .mine__content {
+        overflow: hidden;
+    }
+    .mine__nav {
+        display: flex;
+        column-gap: 20px;
+    }
+    .mine__nav button {
+        padding: 16px 32px;
+        font-size: 20px;
+        line-height: 23px;
+    }
 
+    .wbtn {
+        border: 2px solid #005BB9;
+        box-sizing: border-box;
+        border-radius: 6px;
+        color: #005BB9;
+        background-color: white;
+    }
+    .bbtn {
+        background: #005BB9;
+        border-radius: 6px;
+        color: white;
+        border: 2px solid #005BB9;
+    }
+
+    .mine__content-card {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 10px;
+    }
+
+    .mine__card {
+        width: 25%;
+        min-height: 480px;
+        border-bottom: 2px solid #E1E5F8;
+    }
+    .mine__card-rank p {
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFB800;
+    }
+    .mine__card-rank a {
+        font-size: 14px;
+        line-height: 16px;
+        color: #B0B0B0;
+    }
+    .card__title h2 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .mine__card > p{
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .mine__card-rank {
+        display: flex;
+        column-gap: 10px;
+    }
+    .star {
+        display: flex;
+
+    }
+    .card__footer-btn {
+        padding: 15px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 8px;
+    }
+    .card__footer {
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+        padding-top: 20px;
+    }
+    .card__title {
+        width: 100%;
+        min-height: 120px;
+        padding-top: 10px;
+    }
+
+    .card__pricce h3 {
+        font-size: 22px;
+        line-height: 26px;
+        color: #FFB800;
+    }
+    .card__pricce p {
+        font-size: 16px;
+        line-height: 19px;
+        text-decoration-line: line-through;
+        color: #C2C5DA;
+    }
+    .card__pricce {
+        display: flex;
+        column-gap: 8px;
+        align-items: center;
+    }
+
+    .card__title2 h2 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .card__title2 {
+        width: 100%;
+        min-height: 108px;
+        padding-top: 10px;
+    }
+
+    .mine__foot__btn {
+        margin: 40px;
+        display: flex;
+        justify-content: center;
+
+    }
+    .mine__foot__btn button {
+        font-size: 16px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        padding: 15px 40px;
+    }

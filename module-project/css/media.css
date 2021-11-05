@@ -332,7 +332,97 @@
         width: 74px;
 
     }
+
 /*-----------------small slider-----------*/
+    .mine__card {
+        width: 48%;
+        min-height: 340px;
+    }
+    .mine__content-card {
+        column-gap: 10px;
+    }
+    .dnone {
+        display: none;
+    }
+    .mine__card > img {
+        width: 154px;
+        height: 121px;
+    }
+    ..card__footer {
+        column-gap: 10px;
+    }
+    .card__footer-btn  {
+        font-size: 10px;
+        line-height: 10px;
+        padding: 8px 2px;
+        width: 110px;
+    }
+    .card__footer-btn p {
+        display: flex;
+    }
+    .card__footer-btn img {
+        width: 12px;
+        height: 12px;
+    }
+    .card__pricce h3 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .card__pricce p {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .card__title2 h2 {
+        font-size: 12px;
+        line-height: 17px;
+    }
+    .card__title2 {
+        min-height: 117px;
+    }
+    .card__title h2{
+        font-size: 12px;
+        line-height: 17px;
+    }
+    .mine__card-rank img {
+        width: 12px;
+        height: 12px;
+    }
+    .mine__card-rank p {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .mine__card-rank a {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .mine__card > p {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .mine__nav {
+        column-gap: 10px;
+    }
+    .mine__nav button {
+        padding: 10px 20px;
+        font-size: 14px;
+        line-height: 16px;
+        height: 40px;
+    }
+    .mine__button1 {
+        width: 200px;
+        height: 40px;
+    }
+    .mine__nav {
+        display: inline-flex;
+    }
+    .mine__foot__btn button {
+        padding: 10px 40px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .mine__foot__btn {
+        margin: 25px;
+    }
 }
 
 
